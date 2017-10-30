@@ -1,1 +1,27 @@
 /* ===== MAIN.CSS goes here ===== */
+
+body{
+    background-color: rgb(71,71,71);
+}
+
+nav{
+    background-color: rgba(61,61,61,1); 
+    z-index: 100; 
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('../img/bkg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#mainText{
+    margin-top: 40vh;
+}
+
+#intro{
+    margin-top: 50px;
+}
