@@ -4,6 +4,7 @@
         <title>My Portfolio</title>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Main stylesheet -->
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
@@ -11,15 +12,15 @@
 
         <!-- Navbar -->
 
-        <div class="navbar">
+        <div class="navbar-fixed">
                 
             <nav>
                 <div class="container">
                     <div="nav-wrapper">
-                        <a href="#" id="logo-container" class="brand-logo">Madhav</a>
+                        <a href="#" id="logo-container" class="brand-logo">My Portfolio</a>
                         <ul class="right hide-on-med-and-down" id="navList">
-                            <li><a href="#intro">Service</a></li>
-                            <li><a href="#work">Work</a></li>
+                            <li><a href="#landing">Home</a></li>
+                            <li><a href="#intro">About Me</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
@@ -32,8 +33,9 @@
         <!-- Landing Screen -->
 
         <div class="section" id="landing">
-                <h1 style="color: white;" id="mainText" class="center">
-                    I Love <b>WEB DEV</b>
+                <h5 id="mainText" class="center">My Name Is</h5>
+                <h1 style="color: white;"  class="center">
+                    MADHAV <b>BAHL</b>
                 </h1>
         </div>
 
@@ -43,8 +45,26 @@
             <div class="container">
                 <div class="row">
                     <div  class="col s12">
-                        <h2 class="center header text_h2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="span_h2"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class="span_h2"> laoreet quis.</span> </h2>
+                        <h2 class="center header"> "If you love life, don't waste time, 
+                                for time is what life is made up of"</h2>
                     </div>
+
+                    <div class="col s12">
+                        <div class="car horizontal">
+                            <div class="card-image">
+                                <img src="assets/img/me.png">    
+                            </div>    
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">This is a link</a>
+                                </div>
+                            </div>                
+                        </div>
+                    </div>
+
         
                     <div  class="col s12 m4 l4">
                         <div class="center promo promo-example">
@@ -71,71 +91,24 @@
             </div>
         </div>
 
-        <!--Work-->
-    <div class="section scrollspy" id="work">
-        <div class="container">
-            <h2 class="header text_b">Work </h2>
-            <div class="row">
-                <div class="col s12 m4 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/img/project1.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="#">Project link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/img/project2.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="#">Project link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/img/project3.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a href="#">Project link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
-                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
+        <!--Parallax-->
+         <div id="p1" class="parallax-container">
+            <div  class="parallax">
+                <img src="assets/img/p1.jpg">
                 
             </div>
-        </div>
-    </div>
+            <div class="row">
     
-    <!--Parallax-->
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/img/parallax1.png"></div>
-    </div>
-    <div class="section scrollspy" id="work">
+            </div>
+        </div>
+
+        <!--Work-->
+        <div class="section" id="work">
             <div class="container">
-                <h2 class="header text_b">Work </h2>
-                <div class="row">
+                <h3 class="header text_b center">Have a look at my awesome projects </h3>
+                <div class="row ">
                     <div class="col s12 m4 l4">
-                        <div class="card">
+                        <div class="card  grey darken-4">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="assets/img/project1.jpg">
                             </div>
@@ -150,13 +123,13 @@
                         </div>
                     </div>
                     <div class="col s12 m4 l4">
-                        <div class="card">
+                        <div class="card  grey darken-4">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="assets/img/project2.jpeg">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                                <p><a href="#">Project link</a></p>
+                                <p><a class=" purple-text text-lighten-5" href="#">Project link</a></p>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Project Title <i class="mdi-navigation-close right"></i></span>
@@ -165,7 +138,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4 l4">
-                        <div class="card">
+                        <div class="card  grey darken-4">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="assets/img/project3.png">
                             </div>
@@ -183,6 +156,131 @@
                 </div>
             </div>
         </div>
+    
+    
+
+
+        <!-- Skill Sets -->
+
+        <div class="section grey darken-4"  id="pInfo">
+            <div class="container">
+                <h2 class="header text_b center"> My Skills </h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="waves-effect waves-block waves-light">
+                                <img class="activator" src="img/avatar1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Flash <br/>
+                                    <small><em><a class="red-text text-darken-1" href="#">CEO</a></em></small></span>
+                                <p>
+                                    <a class="blue-text text-lighten-2" href="https://www.facebook.com">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://twitter.com">
+                                        <i class="fa fa-twitter-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://plus.google.com/">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add FIXED ACTION BUTTON -->
+
+        <div class="fixed-action-btn vertical">
+            <a class="btn-floating btn-large  blue-grey darken-4">
+                <i class="fa fa-globe"></i>
+            </a>
+            <ul>
+                <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+                <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer id="contact" class="page-footer black">
+                <div class="container">  
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="mdi-action-account-circle prefix white-text"></i>
+                                        <input id="icon_prefix" name="name" type="text" class="validate white-text">
+                                        <label for="icon_prefix" class="white-text">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="mdi-communication-email prefix white-text"></i>
+                                        <input id="icon_email" name="email" type="email" class="validate white-text">
+                                        <label for="icon_email" class="white-text">Email-id</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <i class="mdi-editor-mode-edit prefix white-text"></i>
+                                        <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+                                        <label for="icon_prefix2" class="white-text">Message</label>
+                                    </div>
+                                    <div class="col s12 center">
+                                        <a class="btn waves-effect waves-light grey darken-4 center" href="mailto:someone@example.com?Subject=Hello%20again" target="_top" type="submit">Submit
+                                            <i class="mdi-content-send right white-text"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col l3 s12">
+                            <h5 class="white-text">Madhav Bahl</h5>
+                            <ul>
+                                <li><a class="white-text" href="#">Home</a></li>
+                                <li><a class="white-text" href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h5 class="white-text">Social</h5>
+                            <ul>
+                                <li>
+                                    <a class="white-text" href="https://www.behance.net/">
+                                        <i class="small fa fa-behance-square white-text"></i> Behance
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="https://www.facebook.com/">
+                                        <i class="small fa fa-facebook-square white-text"></i> Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="https://github.com/">
+                                        <i class="small fa fa-github-square white-text"></i> Github
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="white-text" href="https://www.linkedin.com/in/">
+                                        <i class="small fa fa-linkedin-square white-text"></i> Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright default_color">
+                    <div class="container">
+                        &#169; Madhav Bahl 2017
+                    </div>
+                </div>
+            </footer>
+
         
         
         
